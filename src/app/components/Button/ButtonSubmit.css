@@ -1,0 +1,25 @@
+.button {
+  text-align: center;
+}
+
+.btn {
+  float:left;
+  background-color: navy;
+  color: white;
+  margin-left: 470px;
+  margin-top: auto;
+  width: 45px;
+  height: 40px;
+  padding: 5px;
+  text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .button {
+    zoom:50%;
+    margin-top: 3%;
+  }
+  .btn {
+    margin: auto;
+  }
+}

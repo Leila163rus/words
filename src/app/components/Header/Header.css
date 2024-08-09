@@ -1,0 +1,14 @@
+.header {
+  color: navy;
+  font-family: cursive;
+  font-size: 27px;
+  margin: auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .header {
+    zoom:43%;
+  }
+}

@@ -1,0 +1,11 @@
+.table {
+  display: table;
+  margin: auto;
+  text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .table {
+    margin-bottom: 7%;
+  }
+}

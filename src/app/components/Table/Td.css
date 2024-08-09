@@ -1,0 +1,78 @@
+.td {
+  display: table-cell;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 2px solid black;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 22px;
+  margin-left: 1px;
+  margin-right: 1px;
+  width: 27px;
+  height: 27px;
+  padding: 20px;
+  text-align: center;
+}
+
+.tr {
+  animation: updown 0.5s ease;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-3%);
+  }
+  50% {
+    transform: translateY(5%);
+  }
+  100% {
+    transform: translateY(-3%);
+  }
+}
+
+.tdwin {
+  display: table-cell;
+  background-color:white;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: rgb(133, 125, 10);
+  font-weight: 600;
+  font-size: 22px;
+  width: 27px;
+  height: 27px;
+  padding: 20px;
+  text-align: center;
+}
+
+.tdlose {
+  display: table-cell;
+  background-color:rgb(40, 40, 96);
+  border: 2px solid black;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  font-size: 22px;
+  width: 27px;
+  height: 27px;
+  padding: 20px;
+  text-align: center;
+}
+
+.tdexist {
+  display: table-cell;
+  background-color:rgb(40, 40, 96);
+  border: 2px solid black;
+  border-radius: 5px;
+  color: rgb(133, 125, 10);
+  font-weight: 600;
+  font-size: 22px;
+  width: 27px;
+  height: 27px;
+  padding: 20px;
+  text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .td {
+    zoom:70%;
+  }
+}
