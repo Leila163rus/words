@@ -1,14 +1,15 @@
 {
   "name": "words",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://leila163rus.github.io/words/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "gh-pages -d build -t true"
+    "export": "next export",
+    "deploy": "gh-pages -d out -t true"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
