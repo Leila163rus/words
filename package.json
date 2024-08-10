@@ -2,13 +2,13 @@
   "name": "words",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://leila163rus.github.io/words/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build -t true"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
