@@ -48,8 +48,6 @@ const cleanLetter = () => {
   }
 }
 
-console.log(randomWord.split(''), {loseWord, letter})
-
   return (
     <>
     <Zoom>
