@@ -1,0 +1,18 @@
+image: node:lts
+
+before_script:
+  - "git ls-files -z | while read -d '' path; do touch -d \"$(git log -1 --format=\"@%ct\" \"$path\")\" \"$path\"; done"
+
+pages:
+  stage: build
+  cache:
+    paths:
+    - node_modules/
+  script:
+  - npm install
+  - npx hexo deploy
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
