@@ -47,7 +47,7 @@ const cleanLetter = () => {
     setLetter(letter.slice(0, -1))
   }
 }
-console.log(randomWord)
+
   return (
     <>
     <Zoom>
