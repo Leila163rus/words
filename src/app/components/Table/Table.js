@@ -11,8 +11,8 @@ const Table  = ({letter, winWord, loseWord}) => {
 
   return (
     <main >
-       <table className='table'>
-         <tbody >
+      <table className='table'>
+        <tbody >
           <Td letter={letter} winWord={winWord} loseWord={loseWord} />
           <Td1 letter={letter} winWord={winWord} loseWord={loseWord} />
           <Td2 letter={letter} winWord={winWord} loseWord={loseWord} />

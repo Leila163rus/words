@@ -17,9 +17,9 @@ const Td3 = ({letter, loseWord, winWord}) => {
 
   return (
     <tr className='tr' key={letterArray3}>
-        {letterArray3?.map((val, index) => { return(
+        {letterArray3.map((val, index) => { return(
           <td className={classNames({
-             td: !winWord || !loseWord3,
+             td: !winWord?.includes(val) || !loseWord3,
              tdwin: winWord?.includes(val) || indexCorrectLetter?.includes(val),
              tdexist: indexCorrectLetter?.[index] !== letterArray3[index] && otherCorrectLetter?.includes(val),
              tdlose: unCorrectLetter?.includes(val)
