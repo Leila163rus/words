@@ -1,6 +1,6 @@
 'use client'
 
-import styles from './Td.css'
+import '../Table/Td.css'
 import classNames from 'classnames'
 import { arrayRandomWord } from '../../page'
 import { v4 as uuidv4 } from 'uuid'
@@ -19,8 +19,8 @@ const Td2 = ({letter, loseWord, winWord}) => {
     <tr className='tr' key={letterArray2}>
         {letterArray2?.map((val, index) => { return(
           <td className={classNames({
-             td: true,
-             tdwin: indexCorrectLetter?.[index] == letterArray2[index] || winWord?.includes(val),
+             td: !winWord || !loseWord2,
+             tdwin: winWord?.includes(val) || indexCorrectLetter?.includes(val),
              tdexist: indexCorrectLetter?.[index] !== letterArray2[index] && otherCorrectLetter?.includes(val),
              tdlose: unCorrectLetter?.includes(val)
           })}

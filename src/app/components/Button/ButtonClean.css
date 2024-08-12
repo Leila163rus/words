@@ -1,12 +1,12 @@
 .button {
   text-align: center;
+  margin-right: 10%;
 }
 
 .btn {
   float:left;
   background-color: navy;
   color: white;
-  margin-left: 470px;
   margin-top: auto;
   width: 45px;
   height: 40px;
@@ -18,10 +18,11 @@
   .button {
     zoom:50%;
     margin-top: 3%;
+    margin-right: 0;
   }
   .btn {
     margin: auto;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 22%;
+    margin-right: 18%;
   }
 }

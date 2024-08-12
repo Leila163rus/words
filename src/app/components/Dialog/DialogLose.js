@@ -16,11 +16,11 @@ const DialogLose = ({openLoseDialog, Close}) => {
         style={{border: '5px solid navy'}}
         >
         <DialogTitle 
-        style={{textAlign: 'center', fontSize: '40px'}}
+        style={{textAlign: 'center', fontSize: '35px'}}
         >Увы!</DialogTitle>
         <DialogContent>
             <DialogContentText 
-            style={{textAlign: 'center', color: 'black', fontSize: '20px'}}
+            style={{textAlign: 'center', color: 'black', fontSize: '18px'}}
             >Вы не угадали слово!</DialogContentText>
         </DialogContent>
         <DialogActions>                    

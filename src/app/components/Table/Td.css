@@ -31,7 +31,7 @@
 
 .tdwin {
   display: table-cell;
-  background-color:white;
+  background-color: white;
   border: 2px solid black;
   border-radius: 5px;
   color: rgb(133, 125, 10);
@@ -59,7 +59,7 @@
 
 .tdexist {
   display: table-cell;
-  background-color:rgb(40, 40, 96);
+  background-color:rgb(49, 49, 150);
   border: 2px solid black;
   border-radius: 5px;
   color: rgb(133, 125, 10);
@@ -72,7 +72,7 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .td {
+  .td, .tdexist, .tdlose, .tdwin {
     zoom:70%;
   }
 }

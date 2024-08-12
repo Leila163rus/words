@@ -15,11 +15,11 @@ const DialogSuccess = ({openSuccessDialog, Close}) => {
         style={{border: '5px solid rgb(133, 125, 10)'}}
         >
         <DialogTitle 
-        style={{textAlign: 'center', color: 'rgb(133, 125, 10)', fontSize: '40px'}}
+        style={{textAlign: 'center', color: 'rgb(133, 125, 10)', fontSize: '35px'}}
         >Поздравляем!</DialogTitle>
         <DialogContent>
             <DialogContentText 
-            style={{textAlign: 'center', color: 'rgb(133, 125, 10)', fontSize: '20px'}}
+            style={{textAlign: 'center', color: 'rgb(133, 125, 10)', fontSize: '18px'}}
             >Вы угадали слово!</DialogContentText>
         </DialogContent>
         <DialogActions>                    

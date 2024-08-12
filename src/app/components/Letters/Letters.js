@@ -26,7 +26,7 @@ const unCorrectLetter = loseWord?.filter(el => !arrayRandomWord.includes(el))
             return (
               <th
               className={classNames({
-                lettersanime: letter.length == 0,
+                lettersanime: letter.length === 0,
                 letters: !winWord || !loseWord,
                 letterswin: winWord || correctLetter?.includes(val),
                 letterslose: unCorrectLetter?.includes(val)
